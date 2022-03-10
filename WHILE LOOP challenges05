@@ -1,0 +1,18 @@
+compsum = 50
+count = 1
+number = int(input("enter a number  "))
+
+while number != compsum:
+
+  if number < compsum:
+
+    print("your guess is too low")
+    number = int(input("enter a number  "))
+
+  if number > compsum:
+
+    print("your guess is too high")
+    number = int(input("enter a number  "))
+
+
+print("well done, you took",count,"attempts")

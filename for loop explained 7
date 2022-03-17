@@ -1,0 +1,12 @@
+days = ["MON","TUE","WED","THU","FRI","SAT","SUN"]
+
+HighestLocationinArray = len(days)-1
+lengthOfList = len(days)
+
+print(days)
+print("The lowest location is zero")
+print("The highest location is",HighestLocationinArray)
+print("The number of elements in the list is",lengthOfList)
+
+for i in range(len(days)-1):
+    print("This loop will run for the",i,"element which is", days[i])

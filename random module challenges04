@@ -1,0 +1,12 @@
+import random
+num=random.randint(1,5)
+pick=int(input("pick a number  "))
+
+if pick == num:
+  print("welldone")
+if pick > num:
+  print("number is too high")
+  print("you lose")
+if pick < num:
+  print("number is too low")
+  print("you lose")

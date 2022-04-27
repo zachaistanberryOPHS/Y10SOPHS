@@ -1,0 +1,8 @@
+cars = []
+cars1 = str(input("enter a car brand   "))
+cars.append(cars1)
+cars2 = str(input("enter a car brand   "))
+cars3 = str(input("enter a car brand   "))
+cars.append(cars2)
+cars.append(cars3)
+print(cars)

@@ -1,0 +1,12 @@
+tvtitles = ["adventuretime", "regularshow", "clarence","powerrangers"]
+for x in tvtitles:
+  print(x)
+
+ask = str(input("enter another tv show  "))
+number = int(input("what position would you like it to be on the list  "))
+
+chicken = number - 1
+tvtitles.insert(chicken,ask)
+
+for x in tvtitles:
+  print(x)

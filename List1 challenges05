@@ -1,0 +1,13 @@
+food = []
+
+food.append(input("input a food  "))
+food.append(input("input a food  "))
+food.append(input("input a food  "))
+food.append(input("input a food  "))
+
+print(food)
+
+delete = int(input("what is the number of the food you would like to delete  "))
+num = delete - 1
+del food[num]
+print(food)

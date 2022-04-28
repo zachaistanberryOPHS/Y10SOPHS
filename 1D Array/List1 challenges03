@@ -1,0 +1,17 @@
+add = []
+name1 = str(input("enter a name  "))
+name2 = str(input("enter a name  "))
+name3 = str(input("enter a name  "))
+add.append(name1)
+add.append(name2)
+add.append(name3)
+
+ask = str(input("would you like to add another name?  "))
+
+while ask == "yes":
+  names = str(input("enter a name  "))
+  add.append(names)
+  ask = str(input("would you like to add another name?  "))
+
+last = len(add)
+print("you have invited",last,"to your party")

@@ -1,0 +1,6 @@
+EmptyArray = [["a" for column in range(5)] for row in range(2)]
+print(EmptyArray)
+pick1 = int(input("pick a number  "))
+pick2 = int(input("pick a number  "))
+EmptyArray = [["a" for column in range(pick1)] for row in range(pick2)]
+print(EmptyArray)

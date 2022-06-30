@@ -1,0 +1,5 @@
+stuff = open("numbers.txt","w")
+enter = str(input("enter a number   "))
+stuff.write(enter)
+print("open test file rn")
+stuff.close()

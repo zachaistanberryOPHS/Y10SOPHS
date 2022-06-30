@@ -1,0 +1,8 @@
+rice = open("names.txt","w")
+rice.write("fredrick\n")
+rice.write("fredrick\n")
+rice.write("fredrick\n")
+rice.write("fredrick\n")
+rice.write("fredrick\n")
+
+rice.close()

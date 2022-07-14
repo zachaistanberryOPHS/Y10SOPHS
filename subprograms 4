@@ -1,0 +1,29 @@
+def Minecraft():
+  print("1) creative")
+  print("2) survival")
+  print("3) hardcore")
+  print("4) adventure")
+  print("5) exit")
+
+  choose = int(input("enter a number from 1 to 4  "))
+
+  while choose >= 6:
+    print("invalid")
+    choose = int(input("enter a number from 1 to 4  "))
+    
+    if choose == 1:
+      print("creative selected")
+
+    if choose == 2:
+      print("survival selected")
+
+    if choose == 3:
+      print("hardcore selected")
+
+    if choose == 4:
+      print("adventure selected")
+
+    if choose == 5:
+      print("exiting...")
+
+Minecraft()
